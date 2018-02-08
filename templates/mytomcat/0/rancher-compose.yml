@@ -5,22 +5,6 @@
   version: 0.1
   minimum_rancher_version: v1.0.0
   maintainer: "Rancher-CN <rancher-cn@outlook.com>"
-  questions:
-    - variable: "scale_number"
-      description: |
-        Scale Number 
-      label: "Nginx Scale Number:"
-      default: "1"
-      required: true
-      type: "int"
-    - variable: "ext_port"
-      description: |
-        External Port
-      label: "HAProxy External Port:"
-      default: "8080"
-      required: true
-      type: "int"
-
 version: '2'
 services:
   tomcat:
